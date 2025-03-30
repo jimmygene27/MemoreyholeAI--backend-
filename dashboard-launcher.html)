@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MemoryHoleAI Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #39ff14;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 40px;
+    }
+    .button {
+      background-color: #39ff14;
+      color: #000;
+      border: none;
+      padding: 15px 30px;
+      margin: 20px;
+      font-size: 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button:hover {
+      background-color: #2ecc71;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the MemoryHoleAI Dashboard</h1>
+
+  <a href="/cloak" class="button">Launch Cloak Mode</a><br>
+  <a href="/privacy-shield" class="button">Open Privacy Shield</a><br>
+  <a href="/moderator-tools" class="button">Enter Moderator Tools</a><br>
+</body>
+</html>
